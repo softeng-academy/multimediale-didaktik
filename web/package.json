@@ -1,0 +1,24 @@
+{
+    "name":                        "multimediale-didaktik",
+    "publishConfig":               { "access": "public" },
+    "version":                     "0.0.0",
+    "description":                 "Multimediale Didaktik",
+    "browser":                     "index.html",
+    "keywords":                    [ "multimedia", "didaktik" ],
+    "repository": {
+        "type":                    "git",
+        "url":                     "git+https://github.com/softeng-academy/multimediale-didaktik.git"
+    },
+    "author": {
+        "name":                    "SEA Software Engineering Academy gGmbH",
+        "email":                   "contact@softeng.academy",
+        "url":                     "http://softeng.academy"
+    },
+    "license":                     "MIT",
+    "homepage":                    "https://github.com/softeng-academy/multimediale-didaktik",
+    "bugs":                        "https://github.com/softeng-academy/multimediale-didaktik/issues",
+    "dependencies": {
+        "vue":                     "3.3.4",
+        "typopro-web":             "4.2.6"
+    }
+}
