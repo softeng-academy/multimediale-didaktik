@@ -1,0 +1,220 @@
+
+@import "lib/typopro/TypoPRO-OpenSans/TypoPRO-OpenSans.css";
+
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0,0,0);
+}
+
+body {
+    margin: 0px;
+    padding: 0; /* 60px 100px 60px 100px; */
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 100%);
+    color: #f0f0f0;
+    font-family: TypoPRO Open Sans;
+    font-size: 1.4vw;
+    line-height: 120%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+div.row1 .left {
+    width: calc(60% - 80px);
+    padding-right: 80px;
+}
+div.row1 .right {
+    width: 40%;
+    text-align: justify;
+}
+
+div.row2 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+div.row2 .left {
+    width: 40%;
+    text-align: justify;
+}
+div.row2 .right {
+    width: calc(60% - 80px);
+    padding-left: 80px;
+}
+
+div.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-top;
+}
+div.row .left {
+    width: calc(50% - 120px);
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+div.row .right {
+    width: calc(50% - 120px);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.bg-white    { background-color: #ffffff; }
+.bg-black    { background-color: #000000; color: #ffffff; }
+.bg-grey     { background-color: #222222; color: #ffffff; }
+.bg-brown9xL { background-color: #f4dbc2; color: #000000; }
+.bg-brown6xL { background-color: #e8b481; color: #000000; }
+.bg-brown3xL { background-color: #dc8e40; color: #000000; }
+.bg-brown    { background-color: #b06820; color: #ffffff; }
+.bg-brown3xD { background-color: #6f4214; color: #ffffff; }
+.bg-brown5xD { background-color: #44280c; color: #ffffff; }
+.bg-brown9xL a, .bg-brown9xL a:visited { color: #b06820; }
+.bg-brown6xL a, .bg-brown6xL a:visited { color: #b06820; }
+.bg-brown3xL a, .bg-brown3xL a:visited { color: #b06820; }
+
+.fn-large {
+    font-size: 130%;
+    line-height: 130%;
+}
+.fg-black {
+    color: #000000;
+}
+.fg-white {
+    color: #ffffff;
+}
+
+div.footer {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.0vw;
+    color: #909090;
+}
+
+img.online {
+    width: 100%;
+}
+
+img.dropshadow {
+    box-shadow: 4px 4px 16px -4px rgba(0,0,0,0.73);
+}
+
+img.print {
+    width: 100%;
+}
+
+a, a:visited {
+    color: #e09850;
+    text-decoration: none;
+}
+.footer a, .footer a:visited {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+}
+.video .overlay {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #000000;
+    filter: dropshadow(color=#000000, offx=0, offy=0);
+    font-size: 400%;
+    opacity: 0.8;
+}
+.video .screenshot {
+    width: 100%;
+}
+
+.video-grid {
+    width: 100%;
+}
+.video-grid .video-tile {
+    position: relative;
+    width: 100%;
+}
+.video-grid .video-tile .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px #000000;
+    filter: dropshadow(color=#000000, offx=0, offy=0);
+    font-size: 400%;
+    opacity: 0.8;
+}
+.video-grid .video-tile .overlay span {
+    position: absolute;
+    display: block;
+    top: 10%;
+    left: 70%;
+    font-size: 50%;
+}
+.video-grid .video-tile .overlay i {
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 40%;
+    font-size: 100%;
+}
+.video-grid .video-tile .screenshot {
+    width: 100%;
+}
+
+.logos {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "sea sea" "msg tum";
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+.logos .logo-sea {
+    grid-area: sea;
+    width: 100%;
+}
+.logos .logo-msg {
+    grid-area: "msg";
+    width: 100%;
+}
+.logos .logo-tum {
+    margin-top: -20px;
+    grid-area: "tum";
+    width: 100%;
+}
+
+p {
+    text-indent: 30px;
+    margin-top: 5px;
+}
+p.left-aligned {
+    text-indent: 0;
+}
+
