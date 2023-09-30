@@ -48,7 +48,7 @@ module.exports = function (grunt) {
             "typopro": {
                 files: [
                     {   expand: true, flatten: false, cwd: "node_modules/typopro-web/web",
-                        src: "TypoPRO-OpenSans/**", dest: "lib/typopro/" },
+                        src: "TypoPRO-SourceSansPro/**", dest: "lib/typopro/" },
                     {   expand: true, flatten: false, cwd: "node_modules/typopro-web/web",
                         src: "TypoPRO-DejaVu/**", dest: "lib/typopro/" },
                     {   expand: true, flatten: false, cwd: "node_modules/typopro-web/web",
