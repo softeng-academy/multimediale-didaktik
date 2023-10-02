@@ -93,7 +93,7 @@ div.row .right {
     line-height: 115%;
 }
 .fn-medium {
-    font-size: 120%;
+    font-size: 130%;
     line-height: 115%;
 }
 .fg-black {
@@ -101,6 +101,10 @@ div.row .right {
 }
 .fg-white {
     color: #ffffff;
+}
+
+.quote {
+    font-style: italic;
 }
 
 div.footer {
@@ -113,6 +117,9 @@ div.footer {
 
 img.online {
     width: 100%;
+}
+img.online-small {
+    width: 75%;
 }
 
 img.dropshadow {
