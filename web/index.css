@@ -92,6 +92,10 @@ div.row .right {
     font-size: 140%;
     line-height: 115%;
 }
+.fn-medium {
+    font-size: 120%;
+    line-height: 115%;
+}
 .fg-black {
     color: #000000;
 }
@@ -211,6 +215,7 @@ a, a:visited {
 p {
     text-indent: 30px;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 p.left-aligned {
     text-indent: 0;
