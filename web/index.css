@@ -228,3 +228,14 @@ p.left-aligned {
     text-indent: 0;
 }
 
+.copyright {
+    font-size: 75%;
+    opacity: 50%;
+}
+.bg-black .copyright, .bg-grey .copyright {
+    color: #ffffff;
+}
+.bg-brown9xL .copyright, .bg-brown6xL .copyright {
+    color: #000000;
+}
+
